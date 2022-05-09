@@ -1,0 +1,36 @@
+body{
+    background-color: red;
+}
+@media(min-width :768px) {
+    .perfect{
+        display: flex;
+    }
+}
+img{
+   width: 210px;
+   height: 180px; 
+}
+.small{
+    flex: 1;
+    border: 2px;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.25;
+    background-color: beige;
+}
+.medium{
+    flex: 1;
+    border: 2px;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.25;
+    background-color: rgb(0, 247, 255);
+}
+.large{
+    flex: 1;
+    border: 2px;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.25;
+    background-color: azure;
+}
